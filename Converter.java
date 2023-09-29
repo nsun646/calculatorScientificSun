@@ -395,6 +395,8 @@ public class Converter {
                         System.out.println("Error: Invalid Operator");
                 }
                 break;
+            default:
+                System.out.println("Error: Invalid Operator");
         }
         return 0.0;
     }
